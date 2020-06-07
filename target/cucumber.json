@@ -1,0 +1,423 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7028531900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateNewUser.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 150100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InvalidLogin.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 125600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidLogin.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login multiple users at the same time",
+        "description": "",
+        "id": "valid-login;login-multiple-users-at-the-same-time;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9340221500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "ValidLogin.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1938377600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the signIn",
+            "match": {
+              "location": "ValidLogin.iClickTheSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248821300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my user email \"blessingosakue540@outlook.it\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blessingosakue540@outlook.it",
+                  "offset": 23
+                }
+              ],
+              "location": "ValidLogin.iEnterMyUserEmailAddress(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129421500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my user password \"automation\" detail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automation",
+                  "offset": 26
+                }
+              ],
+              "location": "ValidLogin.iEnterMyUserPasswordDetail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1562777100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "ValidLogin.i_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40751300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "ValidLogin.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ValidLogin"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 136800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateNewUser.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 96300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InvalidLogin.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 91300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidLogin.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login multiple users at the same time",
+        "description": "",
+        "id": "valid-login;login-multiple-users-at-the-same-time;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4051248000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "ValidLogin.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3053643400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the signIn",
+            "match": {
+              "location": "ValidLogin.iClickTheSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235716300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my user email \"lanre.ikuesan659@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lanre.ikuesan659@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "ValidLogin.iEnterMyUserEmailAddress(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99753000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my user password \"automation\" detail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automation",
+                  "offset": 26
+                }
+              ],
+              "location": "ValidLogin.iEnterMyUserPasswordDetail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2722742800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "ValidLogin.i_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33058100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "ValidLogin.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ValidLogin"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 105300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateNewUser.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 63300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InvalidLogin.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 76000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValidLogin.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login multiple users at the same time",
+        "description": "",
+        "id": "valid-login;login-multiple-users-at-the-same-time;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2554748200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "ValidLogin.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1511091400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the signIn",
+            "match": {
+              "location": "ValidLogin.iClickTheSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208311600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my user email \"lanre.ikuesan857@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lanre.ikuesan857@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "ValidLogin.iEnterMyUserEmailAddress(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98908500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my user password \"automation\" detail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automation",
+                  "offset": 26
+                }
+              ],
+              "location": "ValidLogin.iEnterMyUserPasswordDetail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1481638900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "ValidLogin.i_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35627500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "ValidLogin.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ValidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Valid Login",
+    "description": "",
+    "id": "valid-login",
+    "keyword": "Feature",
+    "uri": "ValidLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ValidLogin"
+      }
+    ]
+  }
+]
